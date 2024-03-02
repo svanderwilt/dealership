@@ -7,6 +7,7 @@ function App() {
     <Routes>
       <Route path="/login" element={<LoginPanel />} />
       <Route path="/register" element={<RegisterPanel />} />
+      <Route path="/" element={<LoginPanel />} />
     </Routes>
   );
 }
